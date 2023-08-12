@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Model Architecture
-
+![Alt Text](./assets/model.png)
 ## Data
 Dowload json file
 ```
