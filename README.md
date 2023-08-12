@@ -4,7 +4,7 @@ The goal is combine a CNN and LSTM to perform image captioning
 
 <!-- ![Alt Text]('./assets/model.png') -->
 ## Installation
-```
+```console
 git init
 git clone https://github.com/Banana1206/Image-captioning.git
 cd Image-captioning
@@ -15,11 +15,11 @@ pip install -r requirements.txt
 ![Alt Text](./assets/model.png)
 ## Data
 Dowload json file
-```
+```console
 wget -O open_images_train_captions.jsonl -q https://storage.googleapis.com/localized-narratives/annotations/open_images_train_v6_captions.jsonl
 ```
 Dowload images data
-```
+```python
 from openimages.download import _download_images_by_id
 !mkdir -p train-images val-images
 subset_imageIds = data[data['train']].image_id.tolist()
