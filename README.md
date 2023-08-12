@@ -30,6 +30,6 @@ _download_images_by_id(subset_imageIds, 'train', './val-images/')
 ```
 finally this is sample data
 
-<!-- ![sample1](./assets/sample1.png) -->
+![sample1](./assets/sample1.png)
 
 ## Output
