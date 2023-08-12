@@ -1,0 +1,8 @@
+numpy
+torch
+torchvision
+torch_snippets 
+openimages 
+urllib3
+torchtext
+torch_summary
